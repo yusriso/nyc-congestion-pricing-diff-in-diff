@@ -1,0 +1,45 @@
+{
+  "n_stations_full": 426,
+  "n_stations_excl": 425,
+  "n_treated": 65,
+  "flagged_complex_id": 138,
+  "flagged_complex_name": "Canarsie-Rockaway Pkwy",
+  "flagged_reason": "MTA closed a fare-evasion loophole (unfenced bus-to-subway side entrance) with new turnstiles effective May 16, 2025, newly capturing riders who previously entered untapped.",
+  "naive_full": {
+    "pct": 4.427768350687122,
+    "pct_lo": 1.2115231067308718,
+    "pct_hi": 7.746217702947944,
+    "p": 0.006638504190699322,
+    "n_obs": 18165,
+    "n_months": 43
+  },
+  "preferred_full": {
+    "pct": 1.2798672936370936,
+    "pct_lo": -1.7158225649433811,
+    "pct_hi": 4.366865417321897,
+    "p": 0.4064379873457262,
+    "n_obs": 13075,
+    "n_months": 31
+  },
+  "naive_excl": {
+    "pct": 4.7756615579575445,
+    "pct_lo": 1.6153404728159737,
+    "pct_hi": 8.034271241205616,
+    "p": 0.00283175093963581,
+    "n_obs": 18122,
+    "n_months": 43
+  },
+  "preferred_excl": {
+    "pct": 1.6595861803440304,
+    "pct_lo": -1.2589253736728367,
+    "pct_hi": 4.664360819132507,
+    "p": 0.2680754707242706,
+    "n_obs": 13044,
+    "n_months": 31
+  },
+  "placebo_jan2024": {
+    "pct": 6.167738921867039,
+    "p": 1.2738999252850886e-14
+  },
+  "event_study_post_mean_pct": 1.20199293883263
+}
