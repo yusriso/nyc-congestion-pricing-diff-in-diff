@@ -74,6 +74,7 @@ period the reconstructed index is within 1 to 3 percentage points of
 MTA's published figure (mean absolute error: subway 0.017, bus 0.015,
 LIRR 0.032, Metro-North 0.023, Bridges and Tunnels 0.009).
  <img width="1572" height="399" alt="image" src="https://github.com/user-attachments/assets/53486ebc-ba4f-42dd-a963-2c13db61b644" />
+(Note: The significant dip in the Long Island Railroad service was due to the 2026 Long Island Railroad workers strike which halted service from May 16 to May 19, 2026.)
  
 **Difference-in-differences.** Monthly panel of station complexes (65
 inside the CRZ), January 2024 through July 2026. Outcome is log
