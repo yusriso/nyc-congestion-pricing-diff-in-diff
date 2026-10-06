@@ -73,7 +73,8 @@ day of week over 2022 to 2024 and applies it forward. On the overlap
 period the reconstructed index is within 1 to 3 percentage points of
 MTA's published figure (mean absolute error: subway 0.017, bus 0.015,
 LIRR 0.032, Metro-North 0.023, Bridges and Tunnels 0.009).
-
+ <img width="1572" height="399" alt="image" src="https://github.com/user-attachments/assets/53486ebc-ba4f-42dd-a963-2c13db61b644" />
+ 
 **Difference-in-differences.** Monthly panel of station complexes (65
 inside the CRZ), January 2024 through July 2026. Outcome is log
 ridership. Station fixed effects absorb levels; month fixed effects
@@ -81,6 +82,8 @@ absorb citywide shocks; a treated-group by calendar-month term absorbs
 Midtown's distinct holiday and summer seasonality. Standard errors are
 clustered by station. Reported both on the full 426-station panel and
 excluding one flagged station (425 stations); see below.
+<img width="1553" height="762" alt="PostCongestionPricing" src="https://github.com/user-attachments/assets/dc46f41e-894b-4029-a9dd-cbfb5d33ed32" />
+
 
 The panel starts in 2024 because an event study on 2023 to 2026 shows
 CRZ stations closing a 16-point relative gap during 2023 as Midtown
@@ -99,6 +102,8 @@ May 16, 2025 that require everyone to tap. Since ridership is measured
 from tap data, this mechanically counts riders who were always
 physically present but previously invisible to the count; it is not a
 real change in foot traffic and is unrelated to congestion pricing.
+<img width="573" height="512" alt="image" src="https://github.com/user-attachments/assets/13911333-ee53-4552-8f0f-bf55a6228a49" />
+
 
 Rather than exclude it outright, both specifications are reported: the
 full 426-station panel (+1.3%) and the 425-station panel excluding this
@@ -108,6 +113,8 @@ defensible than a single number with the exclusion buried in a code
 comment. It remains visible on the station-level map, flagged in the
 caption, with the color scale capped at ±40% so this one point doesn't
 wash out every other station's much smaller change.
+<img width="1565" height="565" alt="image" src="https://github.com/user-attachments/assets/906a35ea-a800-43b4-8662-d8c09823d4eb" />
+
 
 **Known limitations.** Station ridership is estimated from OMNY and
 MetroCard entries and excludes fare evasion that has not yet been
